@@ -1,0 +1,371 @@
+{
+  "name": "detection_vs_m",
+  "description": "Full intercept-resend (f = 1, lambda = 0, no loss): empirical probability that m sacrificed sifted bits contain at least one error, against 1 - (3/4)^m.",
+  "generated_by": "scripts/run_sweeps.py",
+  "provenance": {
+    "git_commit": "68110d1ee44236f6ba557a14562505f702d3c7ba",
+    "git_dirty": false,
+    "python": "3.11.9",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "numpy": "2.4.6",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "created_utc": "2026-11-15T21:30:49+00:00",
+    "seed": 20261013,
+    "n": 1000000
+  },
+  "parameters": {
+    "f": 1.0,
+    "lam": 0.0,
+    "loss": 0.0,
+    "m": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "run_seed": 317890015,
+    "method": "per m, the sifted key is shuffled and cut into floor(K/m) disjoint m-bit sets"
+  },
+  "points": [
+    {
+      "m": 1,
+      "draws": 500247,
+      "shuffle_seed": 867620574,
+      "p_detect": 0.24952873280599383,
+      "p_detect_sigma": 0.000611836058923578,
+      "p_detect_theory": 0.25,
+      "z": -0.7697661670471332,
+      "expected_undetected_sets": 375185.25
+    },
+    {
+      "m": 2,
+      "draws": 250123,
+      "shuffle_seed": 840682999,
+      "p_detect": 0.43650523942220426,
+      "p_detect_sigma": 0.00099166014022874,
+      "p_detect_theory": 0.4375,
+      "z": -1.0028710354291974,
+      "expected_undetected_sets": 140694.1875
+    },
+    {
+      "m": 3,
+      "draws": 166749,
+      "shuffle_seed": 1506614335,
+      "p_detect": 0.5762613269045092,
+      "p_detect_sigma": 0.0012101164636000852,
+      "p_detect_theory": 0.578125,
+      "z": -1.5409856148657477,
+      "expected_undetected_sets": 70347.234375
+    },
+    {
+      "m": 4,
+      "draws": 125061,
+      "shuffle_seed": 1357426183,
+      "p_detect": 0.6831626166430782,
+      "p_detect_sigma": 0.0013155861935288677,
+      "p_detect_theory": 0.68359375,
+      "z": -0.3278317452210798,
+      "expected_undetected_sets": 39570.08203125
+    },
+    {
+      "m": 5,
+      "draws": 100049,
+      "shuffle_seed": 2113357517,
+      "p_detect": 0.7623464502393827,
+      "p_detect_sigma": 0.0013456805270896457,
+      "p_detect_theory": 0.7626953125,
+      "z": -0.2593771235387191,
+      "expected_undetected_sets": 23742.0966796875
+    },
+    {
+      "m": 6,
+      "draws": 83374,
+      "shuffle_seed": 2092299743,
+      "p_detect": 0.8203756566795404,
+      "p_detect_sigma": 0.0013294550565254722,
+      "p_detect_theory": 0.822021484375,
+      "z": -1.2424368127098306,
+      "expected_undetected_sets": 14838.78076171875
+    },
+    {
+      "m": 7,
+      "draws": 71463,
+      "shuffle_seed": 293121076,
+      "p_detect": 0.8656367630801953,
+      "p_detect_sigma": 0.001275755511316818,
+      "p_detect_theory": 0.86651611328125,
+      "z": -0.6911936597425062,
+      "expected_undetected_sets": 9539.158996582031
+    },
+    {
+      "m": 8,
+      "draws": 62530,
+      "shuffle_seed": 1742794074,
+      "p_detect": 0.8992323684631377,
+      "p_detect_sigma": 0.0012037942837610418,
+      "p_detect_theory": 0.8998870849609375,
+      "z": -0.5454543830112059,
+      "expected_undetected_sets": 6260.060577392578
+    },
+    {
+      "m": 9,
+      "draws": 55583,
+      "shuffle_seed": 1728272678,
+      "p_detect": 0.925049025781264,
+      "p_detect_sigma": 0.0011168633106865495,
+      "p_detect_theory": 0.9249153137207031,
+      "z": 0.11962305870535994,
+      "expected_undetected_sets": 4173.432117462158
+    },
+    {
+      "m": 10,
+      "draws": 50024,
+      "shuffle_seed": 1860652838,
+      "p_detect": 0.9423876539261155,
+      "p_detect_sigma": 0.0010417976333082842,
+      "p_detect_theory": 0.9436864852905273,
+      "z": -1.2601486852097916,
+      "expected_undetected_sets": 2817.02725982666
+    },
+    {
+      "m": 11,
+      "draws": 45477,
+      "shuffle_seed": 660198452,
+      "p_detect": 0.9576489214328122,
+      "p_detect_sigma": 0.0009443641579184571,
+      "p_detect_theory": 0.9577648639678955,
+      "z": -0.12293408038607918,
+      "expected_undetected_sets": 1920.727281332016
+    },
+    {
+      "m": 12,
+      "draws": 41687,
+      "shuffle_seed": 1469451693,
+      "p_detect": 0.968911171348382,
+      "p_detect_sigma": 0.0008500487637641389,
+      "p_detect_theory": 0.9683236479759216,
+      "z": 0.6849322569515868,
+      "expected_undetected_sets": 1320.492086827755
+    },
+    {
+      "m": 13,
+      "draws": 38480,
+      "shuffle_seed": 1052628079,
+      "p_detect": 0.9766632016632016,
+      "p_detect_sigma": 0.0007696185331677437,
+      "p_detect_theory": 0.9762427359819412,
+      "z": 0.5415904105148969,
+      "expected_undetected_sets": 914.1795194149017
+    },
+    {
+      "m": 14,
+      "draws": 35731,
+      "shuffle_seed": 121915662,
+      "p_detect": 0.9828160420923008,
+      "p_detect_sigma": 0.0006875038475181308,
+      "p_detect_theory": 0.9821820519864559,
+      "z": 0.9058999279484693,
+      "expected_undetected_sets": 636.6531004719436
+    },
+    {
+      "m": 15,
+      "draws": 33349,
+      "shuffle_seed": 615399241,
+      "p_detect": 0.9865363279258749,
+      "p_detect_sigma": 0.0006310981337087066,
+      "p_detect_theory": 0.9866365389898419,
+      "z": -0.1593745634131767,
+      "expected_undetected_sets": 445.6580612277612
+    },
+    {
+      "m": 16,
+      "draws": 31265,
+      "shuffle_seed": 467522181,
+      "p_detect": 0.9894450663681433,
+      "p_detect_sigma": 0.0005779554728857009,
+      "p_detect_theory": 0.9899774042423815,
+      "z": -0.9449608899960069,
+      "expected_undetected_sets": 313.35645636194386
+    },
+    {
+      "m": 17,
+      "draws": 29426,
+      "shuffle_seed": 1174443389,
+      "p_detect": 0.992931421192143,
+      "p_detect_sigma": 0.0004883824665289828,
+      "p_detect_theory": 0.9924830531817861,
+      "z": 0.890467238999037,
+      "expected_undetected_sets": 221.1936770727625
+    },
+    {
+      "m": 18,
+      "draws": 27791,
+      "shuffle_seed": 1513827294,
+      "p_detect": 0.9944586376884603,
+      "p_detect_sigma": 0.00044529677349240194,
+      "p_detect_theory": 0.9943622898863396,
+      "z": 0.21452119408185194,
+      "expected_undetected_sets": 156.67760176873708
+    },
+    {
+      "m": 19,
+      "draws": 26328,
+      "shuffle_seed": 1075311067,
+      "p_detect": 0.9952522029778182,
+      "p_detect_sigma": 0.0004236465860478769,
+      "p_detect_theory": 0.9957717174147547,
+      "z": -1.2991062127768906,
+      "expected_undetected_sets": 111.3222239043389
+    },
+    {
+      "m": 20,
+      "draws": 25012,
+      "shuffle_seed": 240940986,
+      "p_detect": 0.9970014393091317,
+      "p_detect_sigma": 0.00034572445790496226,
+      "p_detect_theory": 0.996828788061066,
+      "z": 0.48564733775251895,
+      "expected_undetected_sets": 79.31835301661704
+    },
+    {
+      "m": 21,
+      "draws": 23821,
+      "shuffle_seed": 772112153,
+      "p_detect": 0.9970614163972965,
+      "p_detect_sigma": 0.0003507114833082925,
+      "p_detect_theory": 0.9976215910457995,
+      "z": -1.7749137725853212,
+      "expected_undetected_sets": 56.65607969800999
+    },
+    {
+      "m": 22,
+      "draws": 22738,
+      "shuffle_seed": 655772047,
+      "p_detect": 0.9980209341190958,
+      "p_detect_sigma": 0.0002947296444818702,
+      "p_detect_theory": 0.9982161932843496,
+      "z": -0.6977524284891257,
+      "expected_undetected_sets": 40.56019710045814
+    },
+    {
+      "m": 23,
+      "draws": 21749,
+      "shuffle_seed": 990796503,
+      "p_detect": 0.9984367097337808,
+      "p_detect_sigma": 0.0002678924261812448,
+      "p_detect_theory": 0.9986621449632622,
+      "z": -0.9095521593779718,
+      "expected_undetected_sets": 29.097009194009942
+    },
+    {
+      "m": 24,
+      "draws": 20843,
+      "shuffle_seed": 1112604558,
+      "p_detect": 0.9989924674950823,
+      "p_detect_sigma": 0.0002197508307918335,
+      "p_detect_theory": 0.9989966087224467,
+      "z": -0.01888391433677903,
+      "expected_undetected_sets": 20.913684398044136
+    },
+    {
+      "m": 25,
+      "draws": 20009,
+      "shuffle_seed": 1080179299,
+      "p_detect": 0.9994002698785547,
+      "p_detect_sigma": 0.00017307525095234153,
+      "p_detect_theory": 0.999247456541835,
+      "z": 0.7882638909785552,
+      "expected_undetected_sets": 15.057642054423493
+    },
+    {
+      "m": 26,
+      "draws": 19240,
+      "shuffle_seed": 20264161,
+      "p_detect": 0.9996361746361746,
+      "p_detect_sigma": 0.00013748804426004076,
+      "p_detect_theory": 0.9994355924063762,
+      "z": 1.1714429925305698,
+      "expected_undetected_sets": 10.859202101320955
+    },
+    {
+      "m": 27,
+      "draws": 18527,
+      "shuffle_seed": 2055228099,
+      "p_detect": 0.9995142224861013,
+      "p_detect_sigma": 0.00016188650322315152,
+      "p_detect_theory": 0.9995766943047821,
+      "z": -0.4133820202814575,
+      "expected_undetected_sets": 7.842584615301444
+    },
+    {
+      "m": 28,
+      "draws": 17865,
+      "shuffle_seed": 489973351,
+      "p_detect": 0.9994962216624685,
+      "p_detect_sigma": 0.0001678838084129531,
+      "p_detect_theory": 0.9996825207285867,
+      "z": -1.3977305299168339,
+      "expected_undetected_sets": 5.67176718379942
+    },
+    {
+      "m": 29,
+      "draws": 17249,
+      "shuffle_seed": 1378226588,
+      "p_detect": 0.9997101281233695,
+      "p_detect_sigma": 0.0001296158541016919,
+      "p_detect_theory": 0.9997618905464399,
+      "z": -0.4406156828432684,
+      "expected_undetected_sets": 4.107149964457557
+    },
+    {
+      "m": 30,
+      "draws": 16674,
+      "shuffle_seed": 717231327,
+      "p_detect": 0.9999400263883891,
+      "p_detect_sigma": 5.9971813166895336e-05,
+      "p_detect_theory": 0.99982141790983,
+      "z": 1.1461869642076352,
+      "expected_undetected_sets": 2.977677771494001
+    }
+  ],
+  "m_for_target": {
+    "target": 0.999,
+    "n_sifted": 500247,
+    "per_bit_error": 0.24952873280599383,
+    "per_bit_error_sigma": 0.000611836058923578,
+    "per_bit_error_z": -0.7697661670471332,
+    "m_needed": 24.06431319512623,
+    "m_needed_sigma": 0.06834566893814852,
+    "m_needed_theory": 24.011768338953278,
+    "smallest_integer_m_theory": 25,
+    "first_m_reaching_target_empirically": 25
+  },
+  "beyond_4sigma": []
+}

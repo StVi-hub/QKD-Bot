@@ -1,0 +1,330 @@
+{
+  "name": "key_fraction",
+  "description": "Asymptotic secret key fraction r(Q) = max(0, 1 - 2 h2(Q)) (Shor-Preskill), computed from the measured QBER in qber_vs_f.json and qber_vs_lambda.json. Not a measured key rate. sigma by the delta method.",
+  "generated_by": "scripts/run_sweeps.py",
+  "provenance": {
+    "git_commit": "68110d1ee44236f6ba557a14562505f702d3c7ba",
+    "git_dirty": false,
+    "python": "3.11.9",
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "numpy": "2.4.6",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "created_utc": "2026-11-15T21:30:49+00:00",
+    "seed": 20261013,
+    "n": 1000000
+  },
+  "derived_from": [
+    "qber_vs_f.json",
+    "qber_vs_lambda.json"
+  ],
+  "parameters": {
+    "qber_threshold": 0.1100278644385071
+  },
+  "vs_f": {
+    "points": [
+      {
+        "f": 0.0,
+        "qber": 0.0,
+        "qber_sigma": 0.0,
+        "key_fraction": 1.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 1.0
+      },
+      {
+        "f": 0.05,
+        "qber": 0.012575208303756566,
+        "qber_sigma": 0.0001575710408775624,
+        "key_fraction": 0.8051632543428631,
+        "key_fraction_sigma": 0.001983824656439039,
+        "key_fraction_theory": 0.8061107878750537
+      },
+      {
+        "f": 0.1,
+        "qber": 0.025033836262477432,
+        "qber_sigma": 0.00022089471712027163,
+        "key_fraction": 0.6623205282266611,
+        "key_fraction_sigma": 0.002334150674498735,
+        "key_fraction_theory": 0.6626781370066595
+      },
+      {
+        "f": 0.15,
+        "qber": 0.037184073582963106,
+        "qber_sigma": 0.00026778905254376344,
+        "key_fraction": 0.5415423126806265,
+        "key_fraction_sigma": 0.002514273166985655,
+        "key_fraction_theory": 0.5385800886170472
+      },
+      {
+        "f": 0.2,
+        "qber": 0.04988501468089322,
+        "qber_sigma": 0.00030799900749306676,
+        "key_fraction": 0.42818338623553087,
+        "key_fraction_sigma": 0.002618868571411255,
+        "key_fraction_theory": 0.4272060857680875
+      },
+      {
+        "f": 0.25,
+        "qber": 0.06280596250527651,
+        "qber_sigma": 0.0003431565612017588,
+        "key_fraction": 0.3230314441353759,
+        "key_fraction_sigma": 0.0026761917802247915,
+        "key_fraction_theory": 0.32541986676597223
+      },
+      {
+        "f": 0.3,
+        "qber": 0.07554893785191202,
+        "qber_sigma": 0.00037336331762037145,
+        "key_fraction": 0.22740392368747442,
+        "key_fraction_sigma": 0.002698008140155975,
+        "key_fraction_theory": 0.23137691174700592
+      },
+      {
+        "f": 0.35,
+        "qber": 0.08708572297619095,
+        "qber_sigma": 0.0003988618575497308,
+        "key_fraction": 0.14666640598207092,
+        "key_fraction_sigma": 0.0027042604773774848,
+        "key_fraction_theory": 0.1438607415413875
+      },
+      {
+        "f": 0.4,
+        "qber": 0.09937494501275704,
+        "qber_sigma": 0.00042303381953083226,
+        "key_fraction": 0.06597784211887814,
+        "key_fraction_sigma": 0.002690471868726473,
+        "key_fraction_theory": 0.06200881282143755
+      },
+      {
+        "f": 0.45,
+        "qber": 0.11289565041860948,
+        "qber_sigma": 0.00044739415839554553,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.5,
+        "qber": 0.1247532245986521,
+        "qber_sigma": 0.0004675721325635566,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.55,
+        "qber": 0.13720917652856998,
+        "qber_sigma": 0.0004870032339468894,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.6,
+        "qber": 0.14992642530969347,
+        "qber_sigma": 0.0005047864203774828,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.65,
+        "qber": 0.16279004696712301,
+        "qber_sigma": 0.0005219082518937149,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.7,
+        "qber": 0.17433745609528398,
+        "qber_sigma": 0.0005364278816803252,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.75,
+        "qber": 0.18737514262265548,
+        "qber_sigma": 0.0005520810805727566,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.8,
+        "qber": 0.1994854878363483,
+        "qber_sigma": 0.0005652005807037942,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.85,
+        "qber": 0.21323126626868774,
+        "qber_sigma": 0.0005791349174193183,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.9,
+        "qber": 0.22535346407789503,
+        "qber_sigma": 0.000590724140590657,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 0.95,
+        "qber": 0.23803965462104254,
+        "qber_sigma": 0.0006020976175933296,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "f": 1.0,
+        "qber": 0.24976584701472418,
+        "qber_sigma": 0.0006117280085345614,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      }
+    ],
+    "fit": {
+      "model": "QBER = k * f; weighted least squares; points with sigma = 0 excluded",
+      "k": 0.2499746884216252,
+      "k_sigma": 0.00019816549601363404,
+      "k_theory": 0.25,
+      "k_z": -0.12772949319618748,
+      "chi2": 15.039623133231979,
+      "dof": 19,
+      "chi2_z": -0.642457963540505,
+      "zero_key_at": 0.4401560219286131,
+      "zero_key_at_sigma": 0.0003489302735393505,
+      "zero_key_at_theory": 0.4401114577540284
+    }
+  },
+  "vs_lambda": {
+    "points": [
+      {
+        "lam": 0.0,
+        "qber": 0.0,
+        "qber_sigma": 0.0,
+        "key_fraction": 1.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 1.0
+      },
+      {
+        "lam": 0.025,
+        "qber": 0.012439339210133979,
+        "qber_sigma": 0.0001567919273697039,
+        "key_fraction": 0.8068760032766218,
+        "key_fraction_sigma": 0.0019789924645167716,
+        "key_fraction_theory": 0.8061107878750537
+      },
+      {
+        "lam": 0.05,
+        "qber": 0.024723436479539708,
+        "qber_sigma": 0.00021978474942459773,
+        "key_fraction": 0.6656061793483722,
+        "key_fraction_sigma": 0.0023305360293226552,
+        "key_fraction_theory": 0.6626781370066595
+      },
+      {
+        "lam": 0.075,
+        "qber": 0.037834227005362035,
+        "qber_sigma": 0.000269825931631372,
+        "key_fraction": 0.5354549569108412,
+        "key_fraction_sigma": 0.0025193763827193747,
+        "key_fraction_theory": 0.5385800886170472
+      },
+      {
+        "lam": 0.1,
+        "qber": 0.05050682697534614,
+        "qber_sigma": 0.0003095823568277303,
+        "key_fraction": 0.4229079343139093,
+        "key_fraction_sigma": 0.00262068109492869,
+        "key_fraction_theory": 0.4272060857680875
+      },
+      {
+        "lam": 0.125,
+        "qber": 0.06278602087064403,
+        "qber_sigma": 0.0003431441742900034,
+        "key_fraction": 0.32318697368007465,
+        "key_fraction_sigma": 0.002676430664941502,
+        "key_fraction_theory": 0.32541986676597223
+      },
+      {
+        "lam": 0.15,
+        "qber": 0.07423794984733971,
+        "qber_sigma": 0.0003709418162221408,
+        "key_fraction": 0.23691311359185263,
+        "key_fraction_sigma": 0.0027007625593409843,
+        "key_fraction_theory": 0.23137691174700592
+      },
+      {
+        "lam": 0.175,
+        "qber": 0.08800563517824053,
+        "qber_sigma": 0.0004007641099274341,
+        "key_fraction": 0.14044476188461363,
+        "key_fraction_sigma": 0.0027038409109514587,
+        "key_fraction_theory": 0.1438607415413875
+      },
+      {
+        "lam": 0.2,
+        "qber": 0.10023535512695216,
+        "qber_sigma": 0.00042412684001329366,
+        "key_fraction": 0.06051758393197271,
+        "key_fraction_sigma": 0.002685703658215309,
+        "key_fraction_theory": 0.06200881282143755
+      },
+      {
+        "lam": 0.225,
+        "qber": 0.11263126504782281,
+        "qber_sigma": 0.00044724506220978017,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "lam": 0.25,
+        "qber": 0.12513608709574128,
+        "qber_sigma": 0.00046807511572946744,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "lam": 0.275,
+        "qber": 0.13757617603794542,
+        "qber_sigma": 0.000487295639079762,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      },
+      {
+        "lam": 0.3,
+        "qber": 0.1500306270743337,
+        "qber_sigma": 0.0005052410646528721,
+        "key_fraction": 0.0,
+        "key_fraction_sigma": 0.0,
+        "key_fraction_theory": 0.0
+      }
+    ],
+    "fit": {
+      "model": "QBER = k * lam; weighted least squares; points with sigma = 0 excluded",
+      "k": 0.500568474845733,
+      "k_sigma": 0.0006776831986168727,
+      "k_theory": 0.5,
+      "k_z": 0.8388504346768609,
+      "chi2": 12.257679133262043,
+      "dof": 11,
+      "chi2_z": 0.26813809215697076,
+      "zero_key_at": 0.2198058207169676,
+      "zero_key_at_sigma": 0.00029757909086062227,
+      "zero_key_at_theory": 0.2200557288770142
+    }
+  }
+}
