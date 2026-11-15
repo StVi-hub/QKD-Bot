@@ -1,0 +1,29 @@
+# Local working files — not part of the public repo
+CLAUDE.md
+COMMITS.md
+STUDY.md
+
+# Virtual environment
+.venv/
+
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# results/ is intentionally tracked (JSON + PNG are the evidence for the README)
